@@ -2,12 +2,12 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BudgetsProvider } from '../context/BudgetContext';
+import { BudgetProvider } from '../context/BudgetContext';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BudgetsProvider>
+    <BudgetProvider>
       <App />
-    </BudgetsProvider>
+    </BudgetProvider>
   </React.StrictMode>,
 )
