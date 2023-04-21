@@ -4,7 +4,7 @@ import { useState } from "react"
 import BudgetCard from '../components/BudgetCard'
 import { useBudgets, UNCATEGORIZED_BUDGET_ID, } from '../context/BudgetContext' 
 import AddExpenseModal from '../components/AddExpenseModal'
-import UncategorizedBudgetCard from '../components/UnCategorizedBudgetCard'
+import UncategorizedBudgetCard from '../components/UncategorizedBudgetCard'
 import TotalBudgetCard from '../components/TotalBudgetCard'
 import ViewExpensesModal from '../components/ViewExpensesModal'
 
